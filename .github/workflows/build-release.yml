@@ -19,10 +19,8 @@ jobs:
       matrix:
         include:
           - arch: armsr_armv8
-          sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc7/targets/armsr/armv8
-          sdk_name: -sdk-24.10.0-rc7-armsr-armv8_
-
-
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc7/targets/armsr/armv8
+            sdk_name: -sdk-24.10.0-rc7-armsr-armv8_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
