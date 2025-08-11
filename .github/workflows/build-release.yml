@@ -18,9 +18,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: aarch64_generic
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc7/targets/aarch64/generic
-            sdk_name: -sdk-24.10.0-rc7-aarch64-generic_
+          - arch: armsr_armv8
+          sdk_url_path: https://downloads.openwrt.org/releases/24.10.0-rc7/targets/armsr/armv8
+          sdk_name: -sdk-24.10.0-rc7-armsr-armv8_
+
 
 
     env:
